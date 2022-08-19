@@ -33,5 +33,5 @@ sudo apt-get install  python3-openpyxl
 sudo apt-get install liburdfdom-tools  
 sudo apt-get install ros-humble-urdf-*  
 
-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
+
 # IgnitionSimulation
