@@ -33,27 +33,5 @@ sudo apt-get install  python3-openpyxl
 sudo apt-get install liburdfdom-tools  
 sudo apt-get install ros-humble-urdf-*  
 
--   其他依赖
-```shell
-sudo apt-get install ros-melodic-gazebo-*
-以下为自动生成测试报告工具安装:
-包括 
-1. 日志轨迹生成  
-gedit ./.bashrc  添加  alias python='/usr/bin/python3.6'  
-sudo apt install python3-tk python3-pip  
-安装excel： pip3 install xlwt  
-安装图形软件： pip3 install matplotlib  
-安装setuptools：   
-wget --no-check-certificate  https://pypi.python.org/packages/source/s/setuptools/setuptools-19.6.tar.gz  
-tar -zxvf setuptools-19.6.tar.gz  
-cd setuptools-19.6  
-python3 setup.py build  
-sudo python3 setup.py install  
-2. word报告生成工具  
-安装docx：pip3 install python-docx  
-3. word报告转网页工具  
-pip3 install mammoth  
-4. 生成EXCL报告工具  
-sudo apt-get install python-openpyxl python3-openpyxl   
-```
+
 # IgnitionSimulation
